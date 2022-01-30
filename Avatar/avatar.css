@@ -118,3 +118,8 @@ body {
     overflow:hidden;
     width: 100%;
   }
+
+  .sidebar-link-active{
+    color: var(--primary-color);
+    font-weight:600;
+}
