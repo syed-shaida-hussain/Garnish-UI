@@ -9,8 +9,11 @@ body {
     --bg-color:#e5e7eb;
 }
 
+.flex{
+  display: flex;
+}
+
   .home-header {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--primary-color);
@@ -25,7 +28,6 @@ body {
   }
   
   .nav-links {
-    display: flex;
     list-style: none;
     flex: 1;
     justify-content: space-around;
@@ -106,7 +108,6 @@ body {
     text-align: center;
     margin-top: 1rem;
     margin-left: 1rem;
-    display: flex;
     flex-wrap: wrap;
   }
 
