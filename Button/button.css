@@ -1,100 +1,25 @@
-:root{
-    --primary-color:#1d4ed8;
-    --text-color:#e5e7eb;
-    --secondary-color:#9ca3af;
-    --bg-color:#e5e7eb;
-    --danger-color:rgb(211, 35, 35);
-    --success-color:rgb(84, 184, 84);
+:root {
+  --primary-color: #1d4ed8;
+  --text-color: #e5e7eb;
+  --secondary-color: #9ca3af;
+  --bg-color: #e5e7eb;
+  --danger-color: rgb(211, 35, 35);
+  --success-color: rgb(84, 184, 84);
 }
 
-.home-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    border-radius: 10px;
-  }
-  
-  .brand {
-    flex: 1;
-    margin-left: 1rem;
-    font-weight: 400;
-  }
-  
-  .nav-links {
-    display: flex;
-    list-style: none;
-    flex: 1;
-    justify-content: space-around;
-  }
-  
-  .nav-link {
-    font-family: monospace;
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 18px;
-  }
-
-  .nav-link:hover{
-    font-size: 20px;
-  }
-
-  .docs-main {
-    display: flex;
-    height: 80vh;
-    width: 100%;
-  }
-  
-  .sidebar {
-    flex: 1;
-    background-color: var(--bg-color);
-    margin: 1rem 0rem;
-  }
-  
-  .docs-main-content {
-    flex: 4;
-  }
-
-  .sidebar-nav-links{
-    list-style: none;
-  }
-
-  .sidebar-nav-link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 18px;
-    margin-bottom: 2.5rem;
-    margin-right: 3rem;
-    color: black;
-  }
-
-.sidebar-nav-link:hover{
-    font-size: 20px;
-    font-weight: 900;
-}
-
-  .sidebar-link-active{
-    color: var(--primary-color);
-    font-weight:600;
-}
-
-.buttons{
+.buttons {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin: 2rem;
 }
 
-.button-heading{
+.button-heading {
   margin: 1rem;
   font-weight: 500;
 }
 
-.button-info{
+.button-info {
   font-weight: 400;
   margin: 2rem;
   font-size: 20px;
@@ -146,17 +71,17 @@
   background-color: var(--success-color);
 }
 
-.iframe-container{
+.iframe-container {
   margin-left: 1rem;
 }
 
-  iframe{
-    margin-left: 1rem;
-    margin-top: 1rem;
-    max-width: 100%;
-    width: 741px;
-    height: 189px; 
-    border:0; 
-    transform: scale(1); 
-    overflow:hidden;
-  }
+iframe {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+  width: 741px;
+  height: 189px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
