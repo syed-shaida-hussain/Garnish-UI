@@ -19,6 +19,7 @@ body {
     background-color: var(--primary-color);
     color: var(--text-color);
     border-radius: 10px;
+    position: relative;
   }
   
   .brand {
@@ -58,7 +59,12 @@ body {
   
   .docs-main-content {
     flex: 4;
+    overflow: scroll;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
 
   .sidebar-nav-links{
     list-style: none;
@@ -109,7 +115,7 @@ img{
   .card {
     border: 1px solid black;
     border-radius: 10px;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     padding: 1rem;
     line-height: 1.5rem
@@ -129,9 +135,9 @@ img{
   }
 
   .card-with-badges {
-    height: 32rem;
+    height: 28rem;
     padding: 0;
-    width: 16rem;
+    width: 15rem;
   }
 
   .card-with-badges-img{
@@ -150,14 +156,14 @@ img{
   .badge1 {
     border-bottom-right-radius: 10px;
     position: relative;
-    bottom: 15rem;
+    bottom: 13rem;
   }
   
   .badge2 {
     border-bottom-left-radius: 10px;
     position: relative;
     bottom: 8rem;
-    left: 5.8rem;
+    left: 4.8rem;
   }
 
   .product{
@@ -167,7 +173,7 @@ img{
   
   .product-info {
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 1.3rem;
     font-weight: 10%;
     color: rgb(172, 161, 161);
@@ -189,7 +195,7 @@ img{
   }
 
   button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.7rem;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
@@ -207,14 +213,23 @@ img{
 
   .card-with-dismiss {
     box-shadow: none;
-    width: 16.7rem;
-    height: 33rem;
+    width: 15.7rem;
+    height: 25rem;
     padding: 0;
   }
 
   .card-with-dismiss-icon{
     top: 0.5rem;
-    left: 15rem;
+    left: 13rem;
+    background-color: var(--primary-color);
+    color: white;
+    display: inline;
+    padding: 0.4rem 0.7rem;
+    border-radius: 50%;
+  }
+
+  .card-eith-dismiss-img{
+    margin-top: -1.6rem;
   }
 
   .card-with-dismiss-text{
@@ -289,3 +304,7 @@ img{
     overflow:hidden;
   }
     
+  .sidebar-link-active{
+    color: var(--primary-color);
+    font-weight:600;
+}
