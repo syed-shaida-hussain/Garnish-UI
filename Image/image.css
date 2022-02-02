@@ -5,9 +5,20 @@
     --bg-color:#e5e7eb;
 }
 
+.sidebar-link-active{
+    color: var(--primary-color);
+    font-weight:600;
+}
+
 .image-heading{
     margin-left: 1rem;
     font-weight: 500;
+}
+
+.image-info{
+    margin-left: 2rem;
+    max-width: 80%;
+    font-size: 20px;
 }
 
 .images{
@@ -28,12 +39,6 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--primary-color);
-}
-
-.image-info{
-    margin-left: 2rem;
-    max-width: 80%;
-    font-size: 20px;
 }
 
 .round-image{
