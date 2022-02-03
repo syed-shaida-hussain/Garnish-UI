@@ -3,6 +3,11 @@
   --text-color: #e5e7eb;
   --secondary-color: #9ca3af;
   --bg-color: #e5e7eb;
+  --white-color :white;
+  --success-color :#10b981;
+  --danger-color :#dc2626;
+  --warning-color : rgb(245, 191, 13);
+  --info-color :#60a5fa;
 }
 
 .alert-heading {
@@ -13,26 +18,26 @@
 .alert {
   padding: 2rem;
   border-radius: 5px;
-  font-size: 20px;
-  color: white;
+  font-size: 1.25rem;
+  color: var(--white-color);
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
 
 .alert-success {
-  background-color: #10b981;
+  background-color: var(--success-color);
 }
 
 .alert-danger {
-  background-color: #dc2626;
+  background-color: var(--danger-color);
 }
 
 .alert-warning {
-  background-color: rgb(245, 191, 13);
+  background-color: var(--warning-color);
 }
 
 .alert-info {
-  background-color: #60a5fa;
+  background-color: var(--info-color)
 }
 
 .heading-info {
