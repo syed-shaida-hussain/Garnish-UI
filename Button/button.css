@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #1d4ed8;
+  --text-color: #e5e7eb;
+  --secondary-color: #9ca3af;
+  --bg-color: #e5e7eb;
+  --danger-color: rgb(211, 35, 35);
+  --success-color: rgb(84, 184, 84);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.button-heading {
+  margin: 1rem;
+  font-weight: 500;
+}
+
+.button-info {
+  font-weight: 400;
+  margin: 2rem;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+}
+
+.secondary-btn {
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+}
+
+.link-btn {
+  color: black;
+  border-bottom: 2px solid var(--primary-color);
+  padding: 5px 10px;
+}
+
+.icon-btn {
+  padding: 5px 10px;
+  background-color: var(--danger-color);
+}
+
+.danger {
+  background-color: var(--danger-color);
+  margin-top: 1rem;
+}
+
+.success {
+  background-color: var(--success-color);
+  margin-top: 1rem;
+}
+
+.floating-action-btn {
+  padding: 7px 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: var(--success-color);
+}
+
+.iframe-container {
+  margin-left: 1rem;
+}
+
+iframe {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+  width: 741px;
+  height: 189px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
