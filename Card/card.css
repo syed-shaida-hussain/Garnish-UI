@@ -1,0 +1,244 @@
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #1d4ed8;
+  --text-color: #e5e7eb;
+  --secondary-color: #9ca3af;
+  --bg-color: #e5e7eb;
+  --badge-color:rgb(109, 204, 109);
+  --product-info-color:rgb(172, 161, 161);
+}
+
+hr {
+  height: 0.1rem;
+  background-color: gray;
+}
+
+img {
+  border-radius: 10px;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-heading {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.card-info {
+  margin-left: 2rem;
+  font-size: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  line-height: 1.5rem
+}
+
+.card-heading-info {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.iframe-heading{
+  background-color: var(--bg-color);
+  padding: 1rem;
+  font-size: 1.2rem;
+  width: 11rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.icon {
+  position: relative;
+  left: 15rem;
+  bottom: 0.7rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.card-with-badges {
+  height: 28rem;
+  padding: 0;
+  width: 15rem;
+}
+
+.card-with-badges-img {
+  border-radius: 5px;
+  padding: 0;
+}
+
+.badge {
+  background-color: var(--badge-color);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.badge1 {
+  border-bottom-right-radius: 10px;
+  position: relative;
+  bottom: 13rem;
+}
+
+.badge2 {
+  border-bottom-left-radius: 10px;
+  position: relative;
+  bottom: 8rem;
+  left: 4.8rem;
+}
+
+.product {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.product-info {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 10%;
+  color: var(--product-info-color);
+}
+
+.product-price {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.button-container {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+
+button {
+  padding: 0.5rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.buy-button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.cart-button {
+  background-color: var(--secondary-color);
+}
+
+.card-with-dismiss {
+  box-shadow: none;
+  width: 15.7rem;
+  height: 25rem;
+  padding: 0;
+}
+
+.card-with-dismiss-icon {
+  top: 0.5rem;
+  left: 13rem;
+  background-color: var(--primary-color);
+  color: white;
+  display: inline;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50%;
+}
+
+.card-eith-dismiss-img {
+  margin-top: -1.6rem;
+}
+
+.card-with-dismiss-text {
+  margin: 1rem;
+}
+
+.card-with-shadow {
+  width: 15.7rem;
+  height: 22rem;
+  box-shadow: 0px 0px 10px 0px var(--primary-color);
+}
+
+.horizontal-card {
+  width: 30rem;
+  padding: 0;
+}
+
+.horizontal-card-text {
+  margin: 1rem;
+}
+
+.horizontal-card-icon {
+  bottom: 12rem;
+  left: 27rem;
+  color: white;
+  background-color: var(--primary-color);
+  display: inline;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50%;
+}
+
+.text-only-card {
+  width: 15.7rem;
+  height: 20rem;
+}
+
+.card-with-overlay-text {
+  padding: 0;
+  height: 27rem;
+  width: 16rem;
+}
+
+.overlay-text {
+  position: relative;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.overlay-text1 {
+  bottom: 13rem;
+  font-weight: 700;
+}
+
+.overlay-text2 {
+  bottom: 7rem;
+  left: 2rem;
+}
+
+.card-overlay-textarea {
+  margin: 0rem 1rem;
+  margin-top: -4rem;
+}
+
+iframe {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 900px;
+  height: 189px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.sidebar-link-active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
