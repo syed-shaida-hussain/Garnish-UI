@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Input/input.css">
+</head>
+
+<body>
+    <header class="home-header flex">
+        <h1 class="brand">Garnish UI</h1>
+        <ul class="nav-links flex">
+            <li><a class="nav-link link-active" href="/index.html">Home</a></li>
+            <li><a class="nav-link" href="/documentation.html">Documentation</a></li>
+        </ul>
+    </header>
+
+    <main class="docs-main">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="sidebar-nav-links">
+                    <li>
+                        <a class="sidebar-nav-link " href="/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="">Alert</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="">Buttons</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link " href="/Card/card.html">Cards</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link sidebar-link-active" href="/Input/input.html">Input</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="docs-main-content">
+            <h1 class="input-heading">Inputs</h1>
+            <p class="input-info">
+                Input elements are used to get the dynamic responses from the user.
+            </p>
+
+            <div class="inputs">
+                <input placeholder="Name" class="text-box" type="text" />
+                <input placeholder="Username" class="text-box" type="text" />
+
+                <label class="label label-for-validated-input" for="validated-input">Input Label</label>
+                <input placeholder="I am a validated textbox." class="text-box validated-input" type="text" />
+                <div class="text validated-text">Validated input</div>
+
+                <label class="label label-for-error-style" for="error-style-input">Input Label</label>
+                <input placeholder="I am an error style textbox." class="text-box error-style-input" type="text" />
+                <div class="text error-style-text">Error style input</div>
+            </div>
+
+
+            <div class="iframe-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=691&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%253Cinput%2520placeholder%253D%2522Name%2522%2520class%253D%2522text-box%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%250A%253Cinput%2520placeholder%253D%2522Username%2522%2520class%253D%2522text-box%2522%2520type%253D%2522text%2522%2520%252F%253E">
+                </iframe>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=691&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520label-for-validated-input%2522%2520for%253D%2522validated-input%2522%253EInput%2520Label%253C%252Flabel%253E%250A%253Cinput%2520placeholder%253D%2522I%2520am%2520a%2520validated%2520textbox.%2522%2520class%253D%2522text-box%2520validated-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522text%2520validated-text%2522%253EValidated%2520input%253C%252Fdiv%253E">
+                </iframe>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=691&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520label-for-error-style%2522%2520for%253D%2522error-style-input%2522%253EInput%2520Label%253C%252Flabel%253E%250A%253Cinput%2520placeholder%253D%2522I%2520am%2520an%2520error%2520style%2520textbox.%2522%2520class%253D%2522text-box%2520error-style-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522text%2520error-style-text%2522%253EError%2520style%2520input%253C%252Fdiv%253E">
+                </iframe>
+
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
