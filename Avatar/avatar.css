@@ -22,6 +22,10 @@ body {
   max-width: 5rem;
 }
 
+.extra-small-avatar{
+  max-width: 3rem;
+}
+
 .avatar-heading {
   margin-left: 1rem;
   font-weight: 500;
@@ -40,7 +44,6 @@ body {
 }
 
 iframe {
-  max-width: 450px;
   height: 223px;
   border: 0;
   transform: scale(1);
