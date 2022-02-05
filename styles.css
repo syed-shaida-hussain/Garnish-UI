@@ -39,7 +39,8 @@
   display: flex;
   list-style: none;
   flex: 1;
-  justify-content: space-around;
+  justify-content: flex-end;
+  /* justify-content: space-around; */
 }
 
 .nav-link {
@@ -47,6 +48,7 @@
   text-decoration: none;
   color: var(--text-color);
   font-size: 18px;
+  margin-right: 2rem;
 }
 
 .nav-link:hover {

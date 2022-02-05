@@ -71,6 +71,11 @@
   background-color: var(--success-color);
 }
 
+.sidebar-link-active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 .iframe-container {
   margin-left: 1rem;
 }
