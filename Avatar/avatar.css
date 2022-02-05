@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #1d4ed8;
+  --text-color: #e5e7eb;
+  --secondary-color: #9ca3af;
+  --bg-color: #e5e7eb;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.large-avatar {
+  max-width: 7rem;
+}
+
+.small-avatar {
+  max-width: 5rem;
+}
+
+.extra-small-avatar{
+  max-width: 3rem;
+}
+
+.avatar-heading {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.avatar-info {
+  margin-left: 2rem;
+  font-size: 20px;
+}
+
+.iframe-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  flex-wrap: wrap;
+}
+
+iframe {
+  height: 223px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+  width: 100%;
+}
+
+.sidebar-link-active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
