@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Modal/modal.css">
+</head>
+
+<body>
+    <header class="home-header flex">
+        <img class="logo" src="/images/comp-lib-logo.png" alt="Brand-logo">
+        <h1 class="brand">Garnish UI</h1>
+        <ul class="nav-links flex">
+            <li><a class="nav-link" href="/index.html">Home</a></li>
+            <li><a class="nav-link link-active" href="/documentation.html">Documentation</a></li>
+        </ul>
+    </header>
+
+    <main class="docs-main">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="sidebar-nav-links">
+                    <li>
+                        <a class="sidebar-nav-link sidebar-link-active" href="/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Button/button.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Card/card.html">Cards</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Text-utilities/text-utilities.html">Text</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Lists/lists.html">Lists</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Navigation/nav.html">Nav</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Modal/modal.html">Modal</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="docs-main-content">
+            <h1 class="modal-heading">Modal</h1>
+            <p class="modal-info">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
+
+            <section class="modal">
+                <div class="modal-header">
+                    <h1 class="modal-header-text">Modal header text</h1>
+                    <p class="cross-icon">✖</p>
+                </div>
+                <hr />
+
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, cum,
+                    deserunt esse pariatur rerum laudantium dolores consectetur odio aut
+                    aspernatur quisquam ex nam unde illum atque, quas exercitationem veniam
+                    inventore! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Exercitationem dolore dolor.
+                </div>
+
+                <hr />
+
+                <div class="modal-buttons">
+                    <button class="btn cancel-btn">Cancel</button>
+                    <button class="btn cta-btn">CTA button</button>
+                </div>
+            </section>
+
+
+
+            <div class="iframe-container flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=793.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Csection%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-header-text%2522%253EModal%2520header%2520text%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522cross-icon%2522%253E%25E2%259C%2596%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolore%252C%2520cum%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520deserunt%2520esse%2520pariatur%2520rerum%2520laudantium%2520dolores%2520consectetur%2520odio%2520aut%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aspernatur%2520quisquam%2520ex%2520nam%2520unde%2520illum%2520atque%252C%2520quas%2520exercitationem%2520veniam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520inventore%21%2520Lorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Exercitationem%2520dolore%2520dolor.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520cancel-btn%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520cta-btn%2522%253ECTA%2520button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253C%252Fsection%253E">
+                </iframe>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

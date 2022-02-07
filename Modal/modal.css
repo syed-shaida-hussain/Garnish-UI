@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #1d4ed8;
+    --text-color: #e5e7eb;
+    --secondary-color: #9ca3af;
+    --bg-color: #e5e7eb;
+}
+
+.modal-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.modal-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+hr {
+    margin: 1rem 0rem;
+    height: 0.1rem;
+    background-color: var(--bg-color);
+}
+
+.modal-header {
+    display: flex;
+}
+
+.modal-header-text {
+    flex: 1;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin: 0rem 1rem;
+    border: none;
+    padding: 0.5rem;
+    color: var(--text-color);
+}
+
+.cta-btn {
+    background-color: var(--primary-color);
+}
+
+.cancel-btn {
+    background-color: var(--secondary-color);
+}
