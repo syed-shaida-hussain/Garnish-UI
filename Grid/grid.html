@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Grid/grid.css">
+</head>
+
+<body>
+    <header class="home-header flex">
+        <img class="logo" src="/images/comp-lib-logo.png" alt="Brand-logo">
+        <h1 class="brand">Garnish UI</h1>
+        <ul class="nav-links flex">
+            <li><a class="nav-link" href="/index.html">Home</a></li>
+            <li><a class="nav-link link-active" href="/documentation.html">Documentation</a></li>
+        </ul>
+    </header>
+
+    <main class="docs-main">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="sidebar-nav-links">
+                    <li>
+                        <a class="sidebar-nav-link" href="/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Button/button.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Card/card.html">Cards</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Text-utilities/text-utilities.html">Text</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Rating/rating.html">Rating</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Snackbar/snackbar.html">Snackbar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link sidebar-link-active" href="/Grid/grid.html">Grid</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="docs-main-content">
+            <h1 class="grid-heading">Grids</h1>
+            <p class="grid-info">Grid layout enables an author to align elements into columns and rows.</p>
+
+            <section class="grid-wrapper">
+                <header class="child header">I am a simplified grid with two grid items </header>
+                <main class="child main-with-two-items">main</main>
+            </section>
+
+            <section class="grid-wrapper">
+                <header class="child header">I am a simplified grid with three grid items</header>
+                <aside class="child aside">sidebar</aside>
+                <main class="child main-with-three-items">main</main>
+                <footer class="child footer">footer</footer>
+            </section>
+
+            <div class="iframe-container flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522grid-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522child%2520header%2522%253EI%2520am%2520a%2520simplified%2520grid%2520with%2520two%2520grid%2520items%2520%253C%252Fheader%253E%250A%2509%2509%253Cmain%2520class%253D%2522child%2520main-with-two-items%2522%253Emain%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E">
+                </iframe>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522grid-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522child%2520header%2522%253EI%2520am%2520a%2520simplified%2520grid%2520with%2520three%2520grid%2520items%253C%252Fheader%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Caside%2520class%253D%2522child%2520aside%2522%253Esidebar%253C%252Faside%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522child%2520main-with-three-items%2522%253Emain%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522child%2520footer%2522%253Efooter%253C%252Ffooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
