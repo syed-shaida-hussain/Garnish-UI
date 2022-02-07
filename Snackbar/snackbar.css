@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #1d4ed8;
+    --text-color: #e5e7eb;
+    --secondary-color: #9ca3af;
+    --bg-color: #e5e7eb;
+    --snackbar-bg-color:#44403c;
+    --snackbar-btn-color:rgb(165, 104, 223);
+}
+
+.snackbar-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.snackbar-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.snackbar {
+    display: flex;
+    align-items: center;
+    background-color: var(--snackbar-bg-color) ;
+    color: var(--text-color);
+    padding: 1rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+  }
+  
+  .snackbar-text {
+    flex: 3;
+  }
+  
+  .snackbar-button {
+    flex: 1;
+    color: var(--snackbar-btn-color);
+  }
