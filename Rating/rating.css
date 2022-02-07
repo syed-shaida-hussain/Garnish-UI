@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #1d4ed8;
+    --text-color: #e5e7eb;
+    --secondary-color: #9ca3af;
+    --bg-color: #e5e7eb;
+    --rating-color:#fde047;
+    --rating-bg-color:#44403c;
+}
+
+.rating-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.rating-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.rating-container {
+    background-color: var(--rating-bg-color);
+    width: 20rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.rating-container div {
+    color:var(--rating-color);
+    font-size: 2rem;
+}
+
+.rating-container input {
+    display: none;
+}
+
+.rating-container input+label {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.rating-container input:checked+label~label {
+    color: var(--bg-color);
+}
