@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #1d4ed8;
+    --text-color: #e5e7eb;
+    --secondary-color: #9ca3af;
+    --bg-color: #e5e7eb;
+}
+
+.nav-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.nav-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+  }
+  
+  .brand-name {
+    flex: 1;
+  }
+  
+  .nav-links-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 2rem;
+    font-size: 1.1rem;
+  }
