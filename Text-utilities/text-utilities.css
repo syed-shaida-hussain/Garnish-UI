@@ -1,0 +1,30 @@
+.text-utilities-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.text-utilities-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.text-utilities-container {
+    border: 1px solid black;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+.heading-text {
+    font-size: 1.7rem;
+}
+
+.gray-text {
+    color: gray;
+    font-size: 1.4rem;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}

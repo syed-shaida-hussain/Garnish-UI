@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Lists/lists.css">
+</head>
+
+<body>
+    <header class="home-header flex">
+        <img class="logo" src="/images/comp-lib-logo.png" alt="Brand-logo">
+        <h1 class="brand">Garnish UI</h1>
+        <ul class="nav-links flex">
+            <li><a class="nav-link" href="/index.html">Home</a></li>
+            <li><a class="nav-link link-active" href="/documentation.html">Documentation</a></li>
+        </ul>
+    </header>
+
+    <main class="docs-main">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="sidebar-nav-links">
+                    <li>
+                        <a class="sidebar-nav-link sidebar-link-active" href="/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Button/button.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Card/card.html">Cards</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Text-utilities/text-utilities.html">Text</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Lists/lists.html">Lists</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="docs-main-content">
+            <h1 class="list-heading">Lists</h1>
+            <p class="list-info">Lists allow us to group a set of related items in lists.</p>
+
+            <div class="list-container">
+                <ol class="list">
+                    <li class="list-item">List Item 1</li>
+                    <li class="list-item">List Item 2</li>
+                    <li class="list-item">List Item 3</li>
+                    <li class="list-item">List Item 4</li>
+                    <li class="list-item">List Item 5</li>
+                </ol>
+
+                <div class="stacked-list-heading">Stacked list</div>
+                <ul class="stacked-list">
+                    <li class="notification">
+                        <img class="user-pic" src="/images/avatar-pic.svg" alt="user-pic" />
+                        <p class="notification-text">
+                            <span class="username">someone</span> started following you.
+                        </p>
+                    </li>
+
+                    <li class="notification">
+                        <img class="user-pic" src="/images/avatar-pic.svg" alt="user-pic" />
+                        <p class="notification-text">
+                            <span class="username">someone</span> liked your post.
+                        </p>
+                    </li>
+
+                    <li class="notification">
+                        <img class="user-pic" src="/images/avatar-pic.svg" alt="user-pic" />
+                        <p class="notification-text">
+                            <span class="username">someone</span> has requested to follow you.
+                        </p>
+                    </li>
+
+                    <li class="notification">
+                        <img class="user-pic" src="/images/avatar-pic.svg" alt="user-pic" />
+                        <p class="notification-text">
+                            <span class="username">someone</span> commented on your post.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="iframe-container flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=691&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EList%2520Item%25205%253C%252Fli%253E%250A%2520%253C%252Fol%253E">
+                </iframe>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=716.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=55px&ln=false&fl=1&fm=Hack&fs=12px&lh=140%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522user-pic%2522%2520src%253D%2522%252Fimages%252Favatar-pic.svg%2522%2520alt%253D%2522user-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522notification-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522username%2522%253Esomeone%253C%252Fspan%253E%2520started%2520following%2520you.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522user-pic%2522%2520src%253D%2522%252Fimages%252Favatar-pic.svg%2522%2520alt%253D%2522user-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522notification-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522username%2522%253Esomeone%253C%252Fspan%253E%2520liked%2520your%2520post.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522user-pic%2522%2520src%253D%2522%252Fimages%252Favatar-pic.svg%2522%2520alt%253D%2522user-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522notification-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522username%2522%253Esomeone%253C%252Fspan%253E%2520has%2520requested%2520to%2520follow%2520you.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522notification%2522%253E%250A%2520%2509%2520%2520%2520%253Cimg%2520class%253D%2522user-pic%2522%2520src%253D%2522%252Fimages%252Favatar-pic.svg%2522%2520alt%253D%2522user-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522notification-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522username%2522%253Esomeone%253C%252Fspan%253E%2520commented%2520on%2520your%2520post.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E">
+                </iframe>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

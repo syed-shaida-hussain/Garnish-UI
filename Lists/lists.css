@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #1d4ed8;
+    --text-color: #e5e7eb;
+    --secondary-color: #9ca3af;
+    --bg-color: #e5e7eb;
+}
+
+.list-heading {
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.list-info {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.list-container {
+    margin-top: 1rem;
+}
+
+.list {
+    border: 1px solid var(--secondary-color);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.list-item {
+    margin: 1rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.stacked-list-heading {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.stacked-list {
+    list-style: none;
+    padding: 1rem;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 26rem;
+}
+
+.notification-text {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.username {
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.user-pic {
+    max-width: 4rem;
+}
