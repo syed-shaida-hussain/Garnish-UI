@@ -19,8 +19,8 @@
 
 .rating-container {
     background-color: var(--rating-bg-color);
-    width: 20rem;
-    padding: 2rem;
+    width: 22rem;
+    padding: 1rem;
     margin: 1rem;
 }
 

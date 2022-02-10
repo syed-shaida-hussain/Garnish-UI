@@ -1,4 +1,17 @@
+@import url(/Avatar/avatar.css);
+@import url(/Alert/alert.css);
+@import url(/Badges/badges.css);
+@import url(/Button/button.css);
 @import url(/Card/card.css);
+@import url(/Image/image.css);
+@import url(/Input/input.css);
+@import url(/Text-utilities/text-utilities.css);
+@import url(/Lists/lists.css);
+@import url(/Navigation/nav.css);
+@import url(/Modal/modal.css);
+@import url(/Rating/rating.css);
+@import url(/Snackbar/snackbar.css);
+@import url(/Grid/grid.css);
 
 :root {
   --primary-color: #1d4ed8;
@@ -103,7 +116,6 @@
 
 .docs-main {
   display: flex;
-  height: 80vh;
   width: 100%;
 }
 
@@ -122,8 +134,13 @@
   display: none;
 }
 
+.sidebar{
+  max-height: 55rem;
+}
+
 .sidebar-nav-links {
   list-style: none;
+  margin-left: 2rem;
 }
 
 .sidebar-nav-link {
@@ -168,6 +185,11 @@
   color: var(--text-color);
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+.sidebar-link-active {
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 iframe {
