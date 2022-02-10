@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"/>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Rating/rating.css">
+</head>
+
+<body>
+    <header class="home-header flex">
+        <img class="logo" src="/images/comp-lib-logo.png" alt="Brand-logo">
+        <h1 class="brand">Garnish UI</h1>
+        <ul class="nav-links flex">
+            <li><a class="nav-link" href="/index.html">Home</a></li>
+            <li><a class="nav-link link-active" href="/documentation.html">Documentation</a></li>
+        </ul>
+    </header>
+
+    <main class="docs-main">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="sidebar-nav-links">
+                    <li>
+                        <a class="sidebar-nav-link" href="/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Button/button.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Card/card.html">Cards</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link" href="/Text-utilities/text-utilities.html">Text</a>
+                    </li>
+                    <li>
+                        <a class="sidebar-nav-link sidebar-link-active" href="/Rating/rating.html">Rating</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="docs-main-content">
+            <h1 class="rating-heading">Text-utilities</h1>
+            <p class="rating-info">A rating is a review of a product or service made by a consumer who has experienced a service or purchased a product.</p>
+
+            <div class="rating-container">
+                <div class="star-icon">
+                  <input id="rating1" name="rating1" type="radio" />
+                  <label for="rating1"><i class="material-icons"> star</i></label>
+          
+                  <input id="rating2" name="rating1" type="radio" />
+                  <label for="rating2"><i class="material-icons"> star</i></label>
+          
+                  <input id="rating3" name="rating1" type="radio" />
+                  <label for="rating3"><i class="material-icons"> star</i></label>
+          
+                  <input id="rating4" name="rating1" type="radio" />
+                  <label for="rating4"><i class="material-icons"> star</i></label>
+          
+                  <input id="rating5" name="rating1" type="radio" />
+                  <label for="rating5"><i class="material-icons"> star</i></label>
+                </div>
+              </div>
+        
+
+            <div class="iframe-container flex">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522rating1%2522%2520name%253D%2522rating1%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating1%2522%253E%253Ci%2520class%253D%2522material-icons%2522%253E%2520star%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522rating2%2522%2520name%253D%2522rating1%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating2%2522%253E%253Ci%2520class%253D%2522material-icons%2522%253E%2520star%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522rating3%2522%2520name%253D%2522rating1%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating3%2522%253E%253Ci%2520class%253D%2522material-icons%2522%253E%2520star%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522rating4%2522%2520name%253D%2522rating1%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating4%2522%253E%253Ci%2520class%253D%2522material-icons%2522%253E%2520star%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522rating5%2522%2520name%253D%2522rating1%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating5%2522%253E%253Ci%2520class%253D%2522material-icons%2522%253E%2520star%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E">
+</iframe>       
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
