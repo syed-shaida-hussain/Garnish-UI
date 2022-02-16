@@ -84,16 +84,15 @@ hr {
 }
 
 .badge1 {
-  border-bottom-right-radius: 10px;
   position: relative;
   bottom: 13rem;
+  left: 1px;
 }
 
 .badge2 {
-  border-bottom-left-radius: 10px;
   position: relative;
   bottom: 8rem;
-  left: 4.8rem;
+  left: 5.2rem;
 }
 
 .product {
@@ -198,7 +197,7 @@ hr {
 
 .card-with-overlay-text {
   padding: 0;
-  height: 27rem;
+  height: 25rem;
   width: 16rem;
 }
 
@@ -211,18 +210,19 @@ hr {
 }
 
 .overlay-text1 {
-  bottom: 4rem;
+  bottom: 10rem;
+  left: 1rem;
   font-weight: 700;
 }
 
 .overlay-text2 {
-  bottom: 7rem;
-  left: 2rem;
+  bottom: 8rem;
+  left: 5rem;
 }
 
 .card-overlay-textarea {
   margin: 0rem 1rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
 }
 
 .product-container {
