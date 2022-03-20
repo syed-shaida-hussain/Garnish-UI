@@ -228,6 +228,7 @@ hr {
 
 .product-container {
   display: flex;
+  flex-wrap: wrap;
   background-color: var(--white-color);
   width: 25rem;
   height: 13rem;
