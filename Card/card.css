@@ -82,18 +82,9 @@ hr {
   display: inline;
   font-size: 1.2rem;
   border-radius: 0;
-}
-
-.badge1 {
   position: relative;
   bottom: 13rem;
   left: 1px;
-}
-
-.badge2 {
-  position: relative;
-  bottom: 8rem;
-  left: 5.2rem;
 }
 
 .product {
