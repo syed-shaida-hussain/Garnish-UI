@@ -20,6 +20,11 @@
   --bg-color: #e5e7eb;
 }
 
+.heading{
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
 .home-main-and-img-wrapper{
   display: flex;
 }
