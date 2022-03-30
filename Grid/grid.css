@@ -57,7 +57,7 @@
     align-items: center;
   }
 
-  .margin-top-bottom{
+  .spaced{
     margin: 1rem;
     color: var(--primary-color);
     font-size: 1.3rem;
