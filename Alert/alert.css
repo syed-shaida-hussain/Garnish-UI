@@ -10,11 +10,6 @@
   --info-color :#60a5fa;
 }
 
-.alert-heading {
-  margin: 1rem;
-  font-weight: 500;
-}
-
 .alert {
   padding: 2rem;
   border-radius: 5px;

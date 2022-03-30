@@ -7,11 +7,6 @@
     --snackbar-btn-color:#c026d3;
 }
 
-.snackbar-heading {
-    margin-left: 1rem;
-    font-weight: 500;
-}
-
 .snackbar-info {
     margin-left: 2rem;
     font-size: 1.2rem;
